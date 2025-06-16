@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-16T07:58:45 IST" name="Default suite" finished-at="2025-06-16T07:59:03 IST" duration-ms="17659">
+    <groups>
+      <group name="Regression">
+        <method signature="CreateCampaignTest.createCampaignWithExpectedCloseDateTest()[pri:0, instance:campaign.CreateCampaignTest@3e08ff24]" name="createCampaignWithExpectedCloseDateTest" class="campaign.CreateCampaignTest"/>
+        <method signature="CreateCampaignTest.createCampaignWithStatusTest()[pri:0, instance:campaign.CreateCampaignTest@3e08ff24]" name="createCampaignWithStatusTest" class="campaign.CreateCampaignTest"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="CreateCampaignTest.createCampaignWithExpectedCloseDateTest()[pri:0, instance:campaign.CreateCampaignTest@3e08ff24]" name="createCampaignWithExpectedCloseDateTest" class="campaign.CreateCampaignTest"/>
+        <method signature="CreateCampaignTest.createCampaignWithMandatoryFieldsTest()[pri:0, instance:campaign.CreateCampaignTest@3e08ff24]" name="createCampaignWithMandatoryFieldsTest" class="campaign.CreateCampaignTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2025-06-16T07:58:45 IST" name="Default test" finished-at="2025-06-16T07:59:03 IST" duration-ms="17659">
+      <class name="campaign.CreateCampaignTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:campaign.CreateCampaignTest@3e08ff24]" started-at="2025-06-16T07:58:45 IST" name="beforeSuite" finished-at="2025-06-16T07:58:45 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:campaign.CreateCampaignTest@3e08ff24]" started-at="2025-06-16T07:58:45 IST" name="beforeTest" finished-at="2025-06-16T07:58:45 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:campaign.CreateCampaignTest@3e08ff24]" started-at="2025-06-16T07:58:45 IST" name="beforeClass" finished-at="2025-06-16T07:58:50 IST" duration-ms="4916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:campaign.CreateCampaignTest@3e08ff24]" started-at="2025-06-16T07:58:50 IST" name="beforeMethod" finished-at="2025-06-16T07:58:53 IST" duration-ms="2364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createCampaignWithExpectedCloseDateTest()[pri:0, instance:campaign.CreateCampaignTest@3e08ff24]" started-at="2025-06-16T07:58:53 IST" name="createCampaignWithExpectedCloseDateTest" finished-at="2025-06-16T07:58:55 IST" duration-ms="2528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCampaignWithExpectedCloseDateTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:campaign.CreateCampaignTest@3e08ff24]" started-at="2025-06-16T07:58:55 IST" name="afterMethod" finished-at="2025-06-16T07:58:56 IST" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:campaign.CreateCampaignTest@3e08ff24]" started-at="2025-06-16T07:58:56 IST" name="beforeMethod" finished-at="2025-06-16T07:58:57 IST" duration-ms="1568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createCampaignWithMandatoryFieldsTest()[pri:0, instance:campaign.CreateCampaignTest@3e08ff24]" started-at="2025-06-16T07:58:57 IST" name="createCampaignWithMandatoryFieldsTest" finished-at="2025-06-16T07:58:59 IST" duration-ms="1566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCampaignWithMandatoryFieldsTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:campaign.CreateCampaignTest@3e08ff24]" started-at="2025-06-16T07:58:59 IST" name="afterMethod" finished-at="2025-06-16T07:58:59 IST" duration-ms="274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:campaign.CreateCampaignTest@3e08ff24]" started-at="2025-06-16T07:58:59 IST" name="beforeMethod" finished-at="2025-06-16T07:59:01 IST" duration-ms="1677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createCampaignWithStatusTest()[pri:0, instance:campaign.CreateCampaignTest@3e08ff24]" started-at="2025-06-16T07:59:01 IST" name="createCampaignWithStatusTest" finished-at="2025-06-16T07:59:02 IST" duration-ms="1542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCampaignWithStatusTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:campaign.CreateCampaignTest@3e08ff24]" started-at="2025-06-16T07:59:02 IST" name="afterMethod" finished-at="2025-06-16T07:59:03 IST" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:campaign.CreateCampaignTest@3e08ff24]" started-at="2025-06-16T07:59:03 IST" name="afterClass" finished-at="2025-06-16T07:59:03 IST" duration-ms="577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:campaign.CreateCampaignTest@3e08ff24]" started-at="2025-06-16T07:59:03 IST" name="afterTest" finished-at="2025-06-16T07:59:03 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:campaign.CreateCampaignTest@3e08ff24]" started-at="2025-06-16T07:59:03 IST" name="afterSuite" finished-at="2025-06-16T07:59:03 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- campaign.CreateCampaignTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
